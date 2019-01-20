@@ -1,0 +1,22 @@
+.back{
+    padding: 100px;
+    background-color: white;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+}
+
+table tr th {
+    background-color: #C0C0C0;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: 	#D3D3D3;
+}
+
+table tr{
+    text-align: center;
+}

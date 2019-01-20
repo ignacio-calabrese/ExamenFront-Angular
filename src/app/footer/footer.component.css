@@ -1,0 +1,27 @@
+.phone-title {
+    margin-bottom: 25px;
+}
+
+
+
+ul.mdl-mega-footer__link-list li {
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+ul.mdl-mega-footer__link-list li a i {
+    margin-top: -500px;
+}
+
+.license {
+    font-size: 0.5em;
+    text-align: center;
+    padding-left: 430px; 
+}
+
+/*icons*/
+
+.fa{
+    font-size: 50px;
+    border-radius: 50%;
+}

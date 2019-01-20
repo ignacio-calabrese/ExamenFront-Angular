@@ -1,0 +1,25 @@
+
+<app-header></app-header>
+
+<!-- Nav-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/']" routerLinkActive="active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/expo-coder']" routerLinkActive="active">Expo Coder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/inscriptos']" routerLinkActive="active">Inscriptos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <router-outlet></router-outlet>
+    
+    <app-footer></app-footer>
